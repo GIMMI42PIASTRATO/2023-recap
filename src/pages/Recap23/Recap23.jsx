@@ -1,10 +1,10 @@
-import Background from "../../components/Background/Background";
-import style from "./Recap23.module.css";
+import Panel1 from "../../components/Panel1/Panel1.jsx";
+// import style from "./Recap23.module.css";
 
 export default function Recap23() {
     return (
         <>
-            <Background>
+            <Panel1>
                 <h1>
                     Hi{" "}
                     <span style={{ color: "var(--vittorio-font-color)" }}>
@@ -21,7 +21,7 @@ export default function Recap23() {
                     It&apos;s time to revisit all those photos and moments that
                     made 2023 so unforgettable.✨🎉✨
                 </div>
-            </Background>
+            </Panel1>
             <div>Cisob a tutti</div>
         </>
     );

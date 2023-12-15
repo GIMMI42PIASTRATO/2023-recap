@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import style from "./Background.module.css";
+import style from "./Panel1.module.css";
 
 export default function Background({ children }) {
     return (
