@@ -1,4 +1,5 @@
 import Panel1 from "../../components/Panel1/Panel1.jsx";
+import Panel2 from "../../components/Panel2/Panel2.jsx";
 // import style from "./Recap23.module.css";
 
 export default function Recap23() {
@@ -22,7 +23,7 @@ export default function Recap23() {
                     made 2023 so unforgettable.✨🎉✨
                 </div>
             </Panel1>
-            <div>Cisob a tutti</div>
+            <Panel2 />
         </>
     );
 }
