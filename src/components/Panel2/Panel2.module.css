@@ -8,3 +8,9 @@
     background-color: var(--background-2);
     overflow: hidden;
 }
+
+.title {
+    font-size: 25rem;
+    color: white;
+    font-family: "Prisma";
+}
