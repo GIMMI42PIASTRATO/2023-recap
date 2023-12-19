@@ -23,15 +23,17 @@ export default function Panel2() {
 
     return (
         <div className={style.backgroundContainer}>
-            {letters.map((letter, i) => (
-                <span
-                    className={style.title}
-                    key={i}
-                    onMouseOver={(event) => handleOnMouseOver(event, i)}
-                >
-                    {letter}
-                </span>
-            ))}
+            <div className={style.title}>
+                {letters.map((letter, i) => (
+                    <span
+                        className={style.letter}
+                        key={i}
+                        onMouseOver={(event) => handleOnMouseOver(event, i)}
+                    >
+                        {letter}
+                    </span>
+                ))}
+            </div>
         </div>
     );
 }

@@ -10,7 +10,20 @@
 }
 
 .title {
-    font-size: 25rem;
+    animation: slideLeft 20s linear infinite;
+}
+
+.letter {
+    font-size: 50rem;
     color: white;
     font-family: "Prisma";
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(90%);
+    }
+    100% {
+        transform: translateX(-90%);
+    }
 }
